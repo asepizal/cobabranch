@@ -6,7 +6,7 @@ import {tambahData} from './tambahData.js'
 function totalNilai(data){
     let siswa = countJumlahSiswa(data)
     let jumlahScore = jumlahNilai(data)
-    tambahData()
+    console.log(tambahData())
     return siswa*jumlahScore
 }
 
