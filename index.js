@@ -1,7 +1,9 @@
 import {data} from './data.js'
+import { countJumlahSiswa } from './countJumlahSiswa.js'
 
-function totalNilai(){
-    return 0
+function totalNilai(data){
+    let siswa = countJumlahSiswa(data)
+    return siswa
 }
 
-console.log(totalNilai())
+console.log(totalNilai(data))
