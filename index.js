@@ -4,10 +4,10 @@ import { jumlahNilai } from './jumlahNilai.js'
 import {tambahData} from './tambahData.js'
 
 function totalNilai(data){
-    let siswa = countJumlahSiswa(data)
+    let jumlahsiswa = countJumlahSiswa(data)
     let jumlahScore = jumlahNilai(data)
     console.log(tambahData())
-    return siswa*jumlahScore
+    return jumlahsiswa*jumlahScore
 }
 
 console.log(totalNilai(data))
